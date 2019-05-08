@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
+    tools:context=".RegistActivity"
     android:orientation="vertical"
     android:gravity="center">
-
-
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -29,25 +27,29 @@
             android:layout_centerHorizontal="true"
             android:hint="Password" />
 
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Password 확인" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
 
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="55dp"
-        android:text="Log in"
-        android:textAllCaps="false"
-        android:id="@+id/bt04"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:text="Join"
+                android:textAllCaps="false"/>
 
-        <Button
-            android:layout_width="150dp"
-            android:layout_height="55dp"
-            android:text="Sign up"
-            android:textAllCaps="false"
-            android:id="@+id/bt05"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:text="cancel"
+                android:textAllCaps="false"/>
         </LinearLayout>
     </LinearLayout>
 
-</RelativeLayout>
+</LinearLayout>
