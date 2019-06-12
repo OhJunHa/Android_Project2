@@ -1,14 +1,24 @@
 package com.example.user.android_project2;
 
 public class MarkerItem {
+    String name;
     double lat;
     double lon;
 
 
-    public MarkerItem(double lat, double lon) {
+    public MarkerItem(String name, double lat, double lon) {
+        this.name = name;
         this.lat = lat;
         this.lon = lon;
 
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public double getLat() {

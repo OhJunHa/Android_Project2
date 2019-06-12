@@ -10,7 +10,7 @@
     <fragment
         android:id="@+id/map"
         android:layout_width="match_parent"
-        android:layout_height="560dp"
+        android:layout_height="620dp"
         class="com.google.android.gms.maps.MapFragment" />
 
     <LinearLayout
@@ -22,21 +22,21 @@
         android:id="@+id/bt01"
         android:layout_weight="10"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="흡연구역 정보"/>
 
         <Button
             android:id="@+id/bt02"
             android:layout_weight="10"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="로그인"/>
+            android:layout_height="wrap_content"
+            android:text="로그아웃"/>
 
         <Button
             android:id="@+id/bt03"
             android:layout_weight="10"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text="금연정보"/>
 
 

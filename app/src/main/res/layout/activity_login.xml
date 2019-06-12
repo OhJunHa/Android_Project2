@@ -29,6 +29,7 @@
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
             android:hint="Password"
+            android:password="true"
             android:id="@+id/pw02"/>
 
         <LinearLayout
