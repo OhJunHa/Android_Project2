@@ -27,6 +27,7 @@
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
             android:hint="Password"
+            android:password="true"
             android:id="@+id/pw01"/>
 
         <EditText
@@ -34,6 +35,7 @@
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
             android:hint="Password 확인"
+            android:password="true"
             android:id="@+id/pwco01"/>
 
         <LinearLayout
